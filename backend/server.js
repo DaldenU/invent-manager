@@ -18,7 +18,7 @@ app.use(cookieParser());
 app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://daldenu.github.io/invent-front',
   credentials: true // Если ваш фронтенд отправляет запросы с куками или заголовками авторизации
 }));
 
